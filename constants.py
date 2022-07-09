@@ -1,5 +1,4 @@
-from telegram import InlineKeyboardButton
-# from telegram.inline.inlinekeyboardmarkup import InlineKeyboardMarkup
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 # inline keyboard for what can the bot help u with today
 
