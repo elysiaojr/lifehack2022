@@ -5,6 +5,8 @@ import os
 from dotenv import load_dotenv
 import json
 
+# from menu import Menu
+
 load_dotenv()
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
@@ -16,5 +18,8 @@ async def hello(update, context):
 bot = ApplicationBuilder().token(BOT_TOKEN).build()
 
 bot.add_handler(CommandHandler("hello", hello))
+
+# Example Callback
+# bot.add_handler(CallbackQueryHandler(Menu.xxx, pattern="xxx"))
 
 bot.run_polling()
