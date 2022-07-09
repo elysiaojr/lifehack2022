@@ -3,7 +3,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 # inline keyboard for what can the bot help u with today
 BOT_START_BTNS = InlineKeyboardMarkup(
-    [[InlineKeyboardButton('1️I want to volunteer', callback_data='volunteer')],
+    [[InlineKeyboardButton('I want to volunteer', callback_data='volunteer')],
      [InlineKeyboardButton('About', callback_data='about')]])
 
 # IK for different locations
@@ -20,25 +20,22 @@ SELECT_LOCATION_BTNS = InlineKeyboardMarkup(
      [InlineKeyboardButton('West', callback_data='west')]])
 
 # IK for benefeciaries
-
-SELECT_LOCATION_BTNS = InlineKeyboardMarkup(
+SELECT_BENEFICIARIES_BTNS = InlineKeyboardMarkup(
     [[InlineKeyboardButton('elderly', callback_data='elderly')],
      [InlineKeyboardButton('children', callback_data='children')],
      [InlineKeyboardButton('patients (with severe illness)', callback_data='patients')],
-     [InlineKeyboardButton('low-income group', callback_data='lowincome')],
-     [InlineKeyboardButton('foreign domestic workers', callback_data='fdw')],
-     [InlineKeyboardButton('no preference', callback_data='')]])
+     [InlineKeyboardButton('low-income group', callback_data='low income')],
+     [InlineKeyboardButton('foreign domestic workers', callback_data='foreign domestic workers')],
+     [InlineKeyboardButton('no preference', callback_data='no preference')]])
 
 # IK for timing
-
 TIMING_BTNS = InlineKeyboardMarkup(
     [[InlineKeyboardButton('weekly', callback_data='weekly')],
      [InlineKeyboardButton('monthly', callback_data='monthly')],
      [InlineKeyboardButton('a few times yearly', callback_data='few times a year')]])
 
 # IK for friends
-
 FRIENDS_BTN = InlineKeyboardMarkup(
     [[InlineKeyboardButton('i am volunteering alone', callback_data='alone')],
-     [InlineKeyboardButton('i am volunteering in a group', callback_data='have group')],
-     [InlineKeyboardButton('i am looking for fellow volunteers', callback_data='finding group')]])
+     [InlineKeyboardButton('i am volunteering in a group', callback_data='with a group')],
+     [InlineKeyboardButton('i am looking for fellow volunteers', callback_data='with new friends')]])
