@@ -2,7 +2,7 @@
 
 ## About the Project
 
-<b>VolunteerBot</b> is a Telegram Bot that faciliates volunteering, especially amongst university students in Singapore, by promoting disucssion and easier searching of volunteering opportunities. 
+<b>NEWVolunteer</b> is a Telegram Bot that faciliates volunteering, especially amongst university students in Singapore, by promoting disucssion and easier searching of volunteering opportunities. 
 
 Users of the bot can expect to:
 
@@ -18,7 +18,7 @@ Through simple qualitative research, we found that many Singaporeans are interes
 
 - Easier
 
-The VolunteerBot is run on Telegram, and users can easily begin their volunteering journey by simple starting the bot and typing /start. As most university students use Telegram as a day-to-day communication tool with their peers, they would already be familiar with the Telegram interface and have no issue diving into the bot.
+The NEWVolunteer bot is run on Telegram, and users can easily begin their volunteering journey by simple starting the bot and typing /start. As most university students use Telegram as a day-to-day communication tool with their peers, they would already be familiar with the Telegram interface and have no issue diving into the bot.
 
 - Widespread
 
@@ -36,4 +36,8 @@ Users are able to select from varioius criteria (location, beneficiary, timing a
 
 ## Video Demo
 
-## Try VolunteerBot
+[video demo](https://youtu.be/OceEePZPMFE)
+
+## Try NEWVolunteer
+
+[NEWVolunteer](t.me/NEWVolunteerBot)
