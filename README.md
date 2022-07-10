@@ -40,4 +40,4 @@ Users are able to select from varioius criteria (location, beneficiary, timing a
 
 ## Try NEWVolunteer
 
-[NEWVolunteer](t.me/NEWVolunteerBot)
+[NEWVolunteer](https://t.me/NEWVolunteerBot)
